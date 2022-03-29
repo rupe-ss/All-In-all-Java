@@ -28,5 +28,23 @@ public class Iteration {
             }
             System.out.println();
         }
+
+        //Iteration continue in for loop
+        System.out.println("\n");
+        for(int i = 1; i <= 10; i++){
+            //Below here what it is doing is, it is skipping the code below continue only when i value is 7
+            if(i == 7)
+                continue;
+            System.out.println("Value is " + i);
+        }
+
+        //Iteration continue in for loop
+        System.out.println("\n");
+        for(int i = 1; i <= 10; i++){
+            //Below here what it is doing is, it is breaking the for loop when i value is more than 5
+            if(i > 5)
+                break;
+            System.out.println("Value is " + i);
+        }
     }
 }
