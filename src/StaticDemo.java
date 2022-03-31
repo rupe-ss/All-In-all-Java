@@ -5,6 +5,7 @@ Notes:
 3. You can not call non-static property in static method. Below main is static method and we can not called property that is non-static, it will throw a error.
 4. Object is created in heap memory but static will load into class loader.
 5. Also one more thing we can use Class name and change the value of static and it will be same for everyone.
+6. If you want to initialize the non-static variable use constructor but if you want to initialize static variable we can use static block.
  */
 
 class Student {
