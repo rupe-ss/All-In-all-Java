@@ -1,4 +1,4 @@
-package com.after5hours;
+package com.collection;
 
 import java.util.ArrayList;
 import java.util.Collection;
