@@ -40,7 +40,7 @@ public class ThreadDemo {
 
         t1.start();
         //To make in order, Hi and Hello. We can put sleep time here but I didn't understand this part.
-        try{ Thread.sleep(500); }catch(Exception e){}
+        try{ Thread.sleep(10); }catch(Exception e){}
         t2.start();
     }
 }
