@@ -25,7 +25,7 @@ class RunnableThread2 implements Runnable{
     }
 }*/
 public class MultiThreadingRunnableInterface {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         /*//First we have to create object of Thread class
         Runnable thread1 = new RunnableThread1();
         Runnable thread2 = new RunnableThread2();*/
@@ -83,5 +83,28 @@ public class MultiThreadingRunnableInterface {
         t1.start();
         try{Thread.sleep(10);}catch(Exception e){};
         t2.start();
+
+        //We can check if Thread is alive or not using isAlive() method
+        if(t1.isAlive()){
+            System.out.println("Thread1 is running.");
+        }
+        if(t2.isAlive()){
+            System.out.println("Thread2 is running.");
+        }
+
+        //join() method will execute this line when thread stop running and main thread will stop waiting and execute the remaining code.
+        //join() method will throw an Exception so we will handle with throws Exception.
+        t1.join();
+        t2.join();
+
+        if(!t1.isAlive()){
+            System.out.println("Thread1 is not running. Thread1 already joined with main Thread.");
+        }
+        if(!t2.isAlive()){
+            System.out.println("Thread2 is not running. Thread2 already joined with main Thread.");
+        }
+
+        //We will print something after both Thread is joined.
+        System.out.println("Bye Bye");
     }
 }
