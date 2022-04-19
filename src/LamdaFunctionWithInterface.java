@@ -20,7 +20,7 @@ public class LamdaFunctionWithInterface {
             }
         };*/
         //Above we see how we can make object of Functional Interface, with help of anonymous function
-        //Java have so many boiler plate code, meaning unwanted code. So, java wanted to update and reduce some of the boiler plate code. They used Scala Language to achieve this.
+        //Java have so many boiler plate code, meaning unwanted code. So, java wanted to update and reduce some of the boiler plate code. They used Scala(eesh-cala) Language to achieve this.
         //So, that have Lamda function to reduce some boiler plate code, let's see how it is done.
         //Using Lamda Function now
         //How Lamda Function works, we can use Lamda function only with functional interface.
