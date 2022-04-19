@@ -12,6 +12,7 @@ public class Array {
         Integer[] iArray = new Integer[5];
         String[] sArray = {"a", "b", "c"};
         Integer[] array = new Integer[]{1,2,3,5};
+        int[] array1 = {1,2,3,4,56};
 
         /*
         Printing array, see the difference below
