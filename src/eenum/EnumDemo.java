@@ -29,7 +29,7 @@ public class EnumDemo {
         Mobile mobile = Mobile.APPLE;
         System.out.println(mobile);
 
-        Mobile[] mobiles = Mobile.values();
+        /*Mobile[] mobiles = Mobile.values();
         for (Mobile mob : mobiles){
             System.out.println(mob);
         }
@@ -37,6 +37,6 @@ public class EnumDemo {
         switch (mobile){
             case APPLE:
                 System.out.println("Apple Enum");
-        }
+        }*/
     }
 }
