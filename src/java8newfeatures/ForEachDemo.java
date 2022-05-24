@@ -25,6 +25,8 @@ public class ForEachDemo {
             }
         });*/
 
+        //ArrayList.java have function  name forEach that takes parameter od Object Consumer (Consumer<? super E> action)
         arrayList.forEach(integer -> System.out.println(integer));
+
     }
 }
