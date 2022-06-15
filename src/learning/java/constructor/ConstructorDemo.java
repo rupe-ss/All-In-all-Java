@@ -1,4 +1,4 @@
-/*
+package learning.java.constructor;/*
 What is constructor and what it does ?
 1. It allocated the memory, only having a class won't work. When creating a object, it need a memory and constructor will do that for you.
 2. Constructor don't have a return type.
