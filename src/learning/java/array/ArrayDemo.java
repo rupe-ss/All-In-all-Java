@@ -1,3 +1,5 @@
+package learning.java.array;
+
 public class ArrayDemo {
     public static void main(String[] args){
         //Lets create a one dimentional array

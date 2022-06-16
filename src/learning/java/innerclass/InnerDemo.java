@@ -1,3 +1,5 @@
+package learning.java.innerclass;
+
 /*
 Notes:
 1. We can make a member class inside a class just like making member variable and member method.
