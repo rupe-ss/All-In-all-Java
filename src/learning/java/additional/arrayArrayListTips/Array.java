@@ -1,4 +1,4 @@
-package arrayArrayListTips;
+package learning.java.additional.arrayArrayListTips;
 
 import java.util.ArrayList;
 import java.util.Arrays;

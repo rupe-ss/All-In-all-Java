@@ -1,3 +1,5 @@
+package learning.java.additional;
+
 class Addition{
     public int add(int ... i){ //When you use 3 dots its call Variable length Arguments, now the arguments comes in the form of array not in Integer
         int sum = 0;

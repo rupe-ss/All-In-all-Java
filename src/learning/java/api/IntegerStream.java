@@ -1,4 +1,4 @@
-package stream.api;
+package learning.java.api;
 
 import java.util.stream.IntStream;
 
