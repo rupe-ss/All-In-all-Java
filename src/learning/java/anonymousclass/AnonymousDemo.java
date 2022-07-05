@@ -1,4 +1,4 @@
-/*
+package learning.java.anonymousclass;/*
 Let's see how anonymous class works
 1. We can make anonymous class when there is parent class and we want to override the method from parent class to sub class.
 2. But why create new class extends the Parent class and override the method and specially when only overriding one method.
@@ -8,7 +8,7 @@ Let's see how anonymous class works
 
 /*
 Lets say this Super class is jar file and we can't edit this class but we want to override show() method in this class.
-Now, instead of creating new class and extending this SuperClass we can make a anonymous class.
+Now, instead of creating new class and extending this learning.java.anonymousclass.SuperClass we can make a anonymous class.
  */
 
 class SuperClass{

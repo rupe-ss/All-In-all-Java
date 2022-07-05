@@ -1,3 +1,5 @@
+package learning.java.opps;
+
 /*
 What is encapsulation ?
     1. The process of binding property of class to method.
@@ -37,7 +39,7 @@ class Encapsulation{
 
     @Override
     public String toString() {
-        return "Encapsulation{" +
+        return "learning.java.opps.Encapsulation{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", description='" + description + '\'' +
@@ -49,7 +51,7 @@ public class EncapsulationDemo {
     public static void main(String[] args) {
         Encapsulation encapsulation = new Encapsulation();
         encapsulation.setId(10);
-        encapsulation.setName("Encapsulation Lesson");
+        encapsulation.setName("learning.java.opps.Encapsulation Lesson");
         encapsulation.setDescription("Learning encapsulation");
         System.out.println(encapsulation.toString());
     }

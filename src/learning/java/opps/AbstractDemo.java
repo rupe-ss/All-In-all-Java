@@ -1,3 +1,5 @@
+package learning.java.opps;
+
 /*
 Abstraction is a process of hiding the implementation details and showing only functionality to the user.
 Here, if someone can view this file then we can hide the stuff. For example we can make reference of Abstract class but we need class to make object so Object is hidden and we can hide the implementation of abstract methods.
@@ -9,7 +11,7 @@ abstract class Animal{
     }
 }
 
-class Dog extends Animal{ //This is called concrete class whereas Animal Class is called Abstract class.
+class Dog extends Animal{ //This is called concrete class whereas learning.java.opps.Animal Class is called Abstract class.
     @Override
     public void noise(){
         System.out.println("Noise: Bark");

@@ -1,3 +1,5 @@
+package learning.java.opps;
+
 class Fruit{
     public void type(String type){
         System.out.println("Displaying type of fruit: " + type);

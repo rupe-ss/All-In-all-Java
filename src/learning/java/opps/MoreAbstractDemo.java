@@ -1,3 +1,5 @@
+package learning.java.opps;
+
 abstract class Animal1{
     public abstract void noise();
     public void walk(){
@@ -5,7 +7,7 @@ abstract class Animal1{
     }
 }
 
-class Dog1 extends Animal1{ //This is called concrete class whereas Animal Class is called Abstract class.
+class Dog1 extends Animal1{ //This is called concrete class whereas learning.java.opps.Animal Class is called Abstract class.
     @Override
     public void noise(){
         System.out.println("Noise: Bark");
@@ -26,7 +28,7 @@ abstract class Writer{
 }
 
 class Pen extends Writer{
-    String write = "Pen is permanent writer.";
+    String write = "learning.java.opps.Pen is permanent writer.";
     @Override
     public void doSomething(){
         System.out.println(write);
@@ -34,7 +36,7 @@ class Pen extends Writer{
 }
 
 class Pencil extends Writer{
-    String write = "Pencil is temporary writer.";
+    String write = "learning.java.opps.Pencil is temporary writer.";
     @Override
     public void doSomething(){
         System.out.println(write);

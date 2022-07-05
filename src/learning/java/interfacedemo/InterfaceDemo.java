@@ -1,3 +1,5 @@
+package learning.java.interfacedemo;
+
 /*
 What is interface ?
     Interface is same as abstract class with some difference. You can't make object of interface as well just like abstract class.

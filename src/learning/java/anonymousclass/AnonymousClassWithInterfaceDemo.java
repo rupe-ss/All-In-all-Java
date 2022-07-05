@@ -1,3 +1,5 @@
+package learning.java.anonymousclass;
+
 interface AnonymousInterface{
     void show();
 }

@@ -1,3 +1,5 @@
+package learning.java.interfacedemo;
+
 /*
 Now, with default method added there is more than one method, but it will still considered functional interface because there is only one abstract method.
  */
@@ -24,6 +26,6 @@ public class InterfaceDefaultMethod {
     public static void main(String[] args) {
         DefaultImp defaultImp = new DefaultImp();
         defaultImp.show();
-        defaultImp.displayName("Default Method");
+        defaultImp.displayName("learning.java.interfacedemo.Default Method");
     }
 }
