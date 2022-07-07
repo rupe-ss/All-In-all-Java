@@ -14,9 +14,13 @@ public class ClassAssignment {
         list.forEach(listName -> System.out.println(listName));
         list.remove((list.size()-1));
 
-        if(list.contains("Ram")){
+        if(list.get(2).equals("Ram")){
             list.remove("Ram");
         }
+
+//        if(list.contains("Ram")){
+//            list.remove("Ram");
+//        }
         System.out.println("*******After Removing********");
         list.forEach(listName -> System.out.println(listName));
     }
