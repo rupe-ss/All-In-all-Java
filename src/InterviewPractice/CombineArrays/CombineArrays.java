@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.CombineArrays;
 
 import java.util.Arrays;
 
