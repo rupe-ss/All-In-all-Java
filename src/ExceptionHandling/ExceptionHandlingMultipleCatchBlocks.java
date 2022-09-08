@@ -1,3 +1,5 @@
+package ExceptionHandling;
+
 /*
 Writing multiple Exceptions into same catch blocks was introduced in Java 1.7
 

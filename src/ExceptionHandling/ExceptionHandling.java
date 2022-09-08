@@ -1,3 +1,5 @@
+package ExceptionHandling;
+
 /*
 How to handle Exception and why to handle Exception ?
  */
