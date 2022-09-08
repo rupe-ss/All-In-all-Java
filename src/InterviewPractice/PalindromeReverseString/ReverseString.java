@@ -1,4 +1,4 @@
-package InterviewPractice;
+package InterviewPractice.PalindromeReverseString;
 
 public class ReverseString {
 
