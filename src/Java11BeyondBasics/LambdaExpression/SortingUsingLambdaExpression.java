@@ -1,4 +1,4 @@
-package Java11BeyondBasics.LanbdaExpression;
+package Java11BeyondBasics.LambdaExpression;
 
 import java.util.*;
 
