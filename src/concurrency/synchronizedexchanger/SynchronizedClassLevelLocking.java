@@ -5,14 +5,24 @@ public class SynchronizedClassLevelLocking {
     private static int counter1 = 0;
     private static int counter2 = 0;
 
-    private static synchronized void increment1(){
+    /*private static synchronized void increment1(){
         counter1++;
+    }*/
+    private static void increment1(){
+        synchronized (SynchronizedClassLevelLocking.class){
+            counter1++;
+        }
     }
 
-    private static synchronized void increment2(){
+    /*private static synchronized void increment2(){
         counter2++;
-    }
+    }*/
 
+    private static  void increment2(){
+        synchronized (SynchronizedClassLevelLocking.class){
+            counter2++;
+        }
+    }
     public void process(){
         Thread thread1 = new Thread(()-> {
             for (int i = 0; i < 1000; i++){
