@@ -1,4 +1,4 @@
-package concurrency;
+package concurrency.waitandnotify;
 
 class Process{
     public void produce() throws InterruptedException {
