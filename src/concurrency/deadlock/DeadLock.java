@@ -10,7 +10,7 @@ public class DeadLock {
     public void worker1(){
         lock1.lock();
         try {
-            Thread.sleep(3000);
+            Thread.sleep(2000);
             System.out.println("Worker1 locking lock1");
         } catch (InterruptedException e) {
             throw new RuntimeException(e);
@@ -24,6 +24,11 @@ public class DeadLock {
 
     public void worker2(){
         lock2.lock();
+        try {
+            Thread.sleep(2000);
+        } catch (InterruptedException e) {
+            throw new RuntimeException(e);
+        }
         System.out.println("Worker2 locking lock2");
         System.out.println("Worker2 waiting for lock1 to unlock");
         lock1.lock();
@@ -37,6 +42,6 @@ public class DeadLock {
 
         //Below is the Method reference which makes code short and sweet.
         new Thread(deadLock::worker1).start();
-        new Thread(deadLock::worker1).start();
+        new Thread(deadLock::worker2).start();
     }
 }
