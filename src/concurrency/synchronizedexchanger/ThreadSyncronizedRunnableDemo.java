@@ -1,4 +1,4 @@
-package concurrency;
+package concurrency.synchronizedexchanger;
 
 import org.junit.jupiter.api.Test;
 
@@ -45,7 +45,7 @@ class RunnableThread implements Runnable{
 
 }
 
-public class ThreadRunnableDemo {
+public class ThreadSyncronizedRunnableDemo {
     public static void main(String[] args) {
         RunnableThread runnableThread1 = new RunnableThread("Thread-1");
         runnableThread1.start();
