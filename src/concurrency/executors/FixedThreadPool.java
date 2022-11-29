@@ -19,6 +19,7 @@ class Task implements Runnable{
         try {
             TimeUnit.SECONDS.sleep(duration);
         } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
             //e.printStackTrace();
         }
     }
@@ -32,9 +33,10 @@ public class FixedThreadPool {
         for (int i = 0; i < 10; i++)
             executor.execute(new Task(i));
 
+        //This shutdown() method won't accept further task, but it will wait to finish the task that is previously executed
         executor.shutdown();
 
-        //If we want to shutdown the executor immediately if there is any exception then we can use sgutdownNow() method
+        //If we want to shut down the executor immediately because of some exception then we can use shutdownNow() method
         try {
             if(!executor.awaitTermination(1000, TimeUnit.MILLISECONDS))
                 executor.shutdownNow();
