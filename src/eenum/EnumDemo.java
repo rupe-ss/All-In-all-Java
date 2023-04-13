@@ -14,7 +14,7 @@ enum Mobile{
     int price;
 
     Mobile(){
-        int price = 150;
+        price = 150;
         System.out.println("Constructor");
     }
 
@@ -28,6 +28,11 @@ public class EnumDemo {
         //Everytime Mobile class is called all the Object is defined.
         Mobile mobile = Mobile.APPLE;
         System.out.println(mobile);
+        System.out.println(mobile.price);
+
+        Mobile mobile1 = Mobile.ONEPLUS;
+        System.out.println(mobile1);
+        System.out.println(mobile1.price);
 
         /*Mobile[] mobiles = Mobile.values();
         for (Mobile mob : mobiles){
