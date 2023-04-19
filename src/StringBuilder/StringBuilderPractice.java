@@ -7,6 +7,9 @@ public class StringBuilderPractice {
         StringBuilder stringBuilder = new StringBuilder(name);
         System.out.println(stringBuilder.reverse());
 
+        // We can use toString() method to convert StringBuilder object to String object.
+        System.out.println(stringBuilder.reverse().toString().getClass().getSimpleName());
+
         System.out.println(reverseString("Apple"));
     }
 
