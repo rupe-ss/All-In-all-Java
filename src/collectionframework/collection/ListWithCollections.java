@@ -19,9 +19,13 @@ public class ListWithCollections {
         values.add(909);
         //We can do all stuff sort,reverse and shuffle but I want to sort with my own logic
         //I want to sort based on last digit, how do I do it ?
+        System.out.println(values);
 
         //Lets sort the List
         Collections.sort(values);
+        System.out.println(values);
+
+
         Collections.reverse(values);
         Collections.shuffle(values);
 

@@ -4,8 +4,9 @@ import java.util.ArrayList;
 import java.util.List;
 
 /*
-List extends collections, I don't understand how you can extends Interface.
-I am guessing to use feature of another Interface from interface, I think we have to extends not implements because ArrayList implements List now not extends.
+List extends collections, I don't understand how you can extend Interface.
+Now, I understand since List is an interface we need to extend as well, implementation won't work
+I am guessing to use feature of another Interface from interface, I think we have to extend not implements because ArrayList implements List now not extends.
 Below List interface have Collection features and additional features as well.
  */
 public class ListInterface {
