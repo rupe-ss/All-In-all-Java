@@ -1,6 +1,5 @@
-package java8newfeatures;
+package java8newfeatures.methodReference;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 
@@ -84,5 +83,6 @@ public class MethodReference {
         String name = "Learning Method Reference";
         PrintLog printLog =  new PrintLog();
         printLog.log(name, stringConverter::convertNonStatic);
+        PrintLog.log("Using static method", StringConverter::convert);
     }
 }
