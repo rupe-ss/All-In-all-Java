@@ -51,8 +51,26 @@ public class QuestionNo9PalindromeNumber {
     }
 
     public static void main(String[] args) {
+        /*
         System.out.println(isPalindrome(12121));
         System.out.println(leetCodeDiscussSolution(12121));
         System.out.println(IsPalindrome(12121));
+        */
+
+        int num = 202;
+        int rev = 0;
+        for(int i = num; i > 0; i/= 10){
+            rev = rev * 10 + (i%10);
+        }
+        if(rev == num) System.out.println("Number is palindrome");
+        else System.out.println("Number is not palindrome");
+
+        String number = String.valueOf(num);
+        if(number.equals(new StringBuilder(String.valueOf(num)).reverse().toString())) System.out.println("Number is palindrome");
+        else System.out.println("Number is not palindrome");
+
+
+
     }
+
 }
