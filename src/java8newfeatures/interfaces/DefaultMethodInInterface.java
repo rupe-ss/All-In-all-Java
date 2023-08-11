@@ -1,8 +1,12 @@
-package java8newfeatures;
+package java8newfeatures.interfaces;
 
 interface Phone{
     default void showName(String name){
         System.out.println("I have a " + name + " phone.");
+    }
+
+    static void printName(String name){
+        System.out.println("Printing name inside static method. Name = :" + name);
     }
 }
 
@@ -17,6 +21,7 @@ public class DefaultMethodInInterface implements Phone{
         Andriod phone = new Andriod();
         phone.showName("Andriod");
         System.out.println(phone.getClass().getSimpleName());
+        Phone.printName("Iphone");
     }
 
 }
