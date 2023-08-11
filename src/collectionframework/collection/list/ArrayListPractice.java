@@ -71,5 +71,9 @@ public class ArrayListPractice {
         System.out.println(al.retainAll(al2));
         System.out.println("Printing arrayList after retaining a collection " + al);
 
+        //Replace the value of ArrayList
+        al.set(0, 5000);
+        System.out.println("Printing arrayList after replacing the first element: " + al);
+
     }
 }
