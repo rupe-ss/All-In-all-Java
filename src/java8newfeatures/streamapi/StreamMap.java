@@ -43,7 +43,7 @@ public class StreamMap {
         //Map take a Function object as parameter, creating a function object
         Function<Integer, Integer> f = (o) ->  o * 2;
 
-        //Stream is a interface that have map() method, which will return a stream object
+        //Stream is an interface that have map() method, which will return a stream object
         Stream s1 = s.map(f);
 
         //Stream have reduced() method as well which takes a BinaryOperator as parameter
@@ -56,6 +56,10 @@ public class StreamMap {
         //Converting Above code into single line
         Integer result = list.stream().map(o ->  o * 2).reduce(0, (o, o2) -> o + o2);
 
+        //Using Method Reference instead of reduce sum method
+        Integer result1 = list.stream().map(i -> i * 2).reduce(0, Integer::sum);
+
         System.out.println(result);
+        System.out.println(result1);
     }
 }
