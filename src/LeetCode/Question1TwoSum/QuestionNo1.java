@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Question1TwoSum;
 
 import java.util.Arrays;
 import java.util.HashMap;
