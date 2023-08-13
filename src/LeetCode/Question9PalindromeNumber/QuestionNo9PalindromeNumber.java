@@ -1,4 +1,4 @@
-package LeetCode;
+package LeetCode.Question9PalindromeNumber;
 
 public class QuestionNo9PalindromeNumber {
 
