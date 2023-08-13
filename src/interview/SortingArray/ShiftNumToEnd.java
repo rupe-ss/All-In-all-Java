@@ -1,4 +1,4 @@
-package InterviewPractice.SortingArray;
+package interview.SortingArray;
 
 import java.util.Arrays;
 

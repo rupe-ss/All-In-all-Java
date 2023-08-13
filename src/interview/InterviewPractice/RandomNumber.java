@@ -1,7 +1,6 @@
-package InterviewPractice;
+package interview.InterviewPractice;
 
 import java.util.Arrays;
-import java.util.List;
 import java.util.Random;
 
 public class RandomNumber {

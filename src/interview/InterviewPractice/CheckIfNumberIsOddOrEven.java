@@ -1,4 +1,4 @@
-package InterviewPractice;
+package interview.InterviewPractice;
 
 public class CheckIfNumberIsOddOrEven {
     private static String check(int number){

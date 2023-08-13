@@ -1,4 +1,4 @@
-package InterviewPractice;
+package interview.InterviewPractice;
 
 public class SpecificCharacterCount {
 

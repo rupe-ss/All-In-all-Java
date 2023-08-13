@@ -1,4 +1,4 @@
-package InterviewPractice.FibonacciSeries;
+package interview.FibonacciSeries;
 
 public class FibonacciSeries {
 

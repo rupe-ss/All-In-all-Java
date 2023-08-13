@@ -1,8 +1,6 @@
-package InterviewPractice.SortingArray;
+package interview.SortingArray;
 
 import java.util.Arrays;
-
-import static java.util.Arrays.*;
 
 public class SortingArray {
 

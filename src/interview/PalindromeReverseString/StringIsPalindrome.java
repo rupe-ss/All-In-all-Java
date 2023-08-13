@@ -1,4 +1,4 @@
-package InterviewPractice.PalindromeReverseString;
+package interview.PalindromeReverseString;
 
 public class StringIsPalindrome {
     //Using StringBuilder() to check if string is palindrome or not.

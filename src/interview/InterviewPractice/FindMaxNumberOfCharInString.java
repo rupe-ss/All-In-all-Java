@@ -1,4 +1,4 @@
-package InterviewPractice;
+package interview.InterviewPractice;
 
 public class FindMaxNumberOfCharInString {
     //In an given array find max number of string

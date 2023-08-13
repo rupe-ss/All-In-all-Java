@@ -1,4 +1,4 @@
-package InterviewPractice.ConvertingArrays;
+package interview.ConvertingArrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
