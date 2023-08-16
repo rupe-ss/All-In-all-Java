@@ -18,7 +18,8 @@ public class Question100First {
 
     private static BiPredicate<List<Integer>, List<Integer>> biPredicate = (p, q) -> {
         boolean same = false;
-        for(int i = 0; i<p.size(); i++){
+        int l = p.size() > q.size() ? p.size() : q.size();
+        for(int i = 0; i < l; i++){
             if(p.get(i) == q.get(i)) same = true;
             else same = false;
         }
