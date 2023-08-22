@@ -1,7 +1,6 @@
 package java8newfeatures.streamapi;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 import static java8newfeatures.streamapi.PersonExample.GENDER.FEMALE;
 import static java8newfeatures.streamapi.PersonExample.GENDER.MALE;
@@ -16,10 +15,17 @@ public class PersonExample {
         new Person("Ramsel", MALE)
         );
 
+        /*
         people.stream()
                 .map(person -> person.gender)
                 .collect(Collectors.toSet())
                 .forEach(System.out::println);
+        */
+
+        //allMatch() method -> this will check all list and return Boolean value
+        boolean b = people.stream()
+                .allMatch(person -> FEMALE.equals(person.gender));
+        System.out.println(b);
 
     }
 
